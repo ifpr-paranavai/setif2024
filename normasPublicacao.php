@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/setif/init.php';
 include_once LIB_CONTROLLER . DS . 'NormasPublicacaoController.class.php';
 include_once LIB_UTIL . DS . 'Funcoes.class.php';
 $controller = new NormasPublicacaoController();
-$normas = $controller->getNormasPublicacao('2023');
+$normas = $controller->getNormasPublicacao('2024');
 ?>
 
 <!DOCTYPE html>
@@ -11,11 +11,11 @@ $normas = $controller->getNormasPublicacao('2023');
 
 <head>
     <title>Normas de Publicação</title>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'metadados.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'metadados.php' ?>
 </head>
 
 <body>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'navbar.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'navbar.php' ?>
 
     <main class="principal px-0">
         <div class="container-fluid">
@@ -154,27 +154,27 @@ $normas = $controller->getNormasPublicacao('2023');
                     $topicosDeInteresses = $controller->getTopicosDeInteresse();
                     foreach ($topicosDeInteresses as $topicoDeInteresse):
                         ?>
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-                            <div class="card text-bg-dark rounded-4 card-topico mb-4" style="width: 100%">
-                                <img src="<?= $topicoDeInteresse->getLinkImagem() ?>" class="card-img rounded-4 opacity-25">
-                                <div class="card-img-overlay">
-                                    <div class="h-100 row align-items-center">
-                                        <div class="col text-center fs-5">
-                                            <?= $topicoDeInteresse->getNome() ?>
-                                        </div>
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                        <div class="card text-bg-dark rounded-4 card-topico mb-4" style="width: 100%">
+                            <img src="<?= $topicoDeInteresse->getLinkImagem() ?>" class="card-img rounded-4 opacity-25">
+                            <div class="card-img-overlay">
+                                <div class="h-100 row align-items-center">
+                                    <div class="col text-center fs-5">
+                                        <?= $topicoDeInteresse->getNome() ?>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <?php
+                    </div>
+                    <?php
                     endforeach;
                     ?>
                 </div>
             </div>
         </div>
     </main>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'rodape.php' ?>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'scripts.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'rodape.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'scripts.php' ?>
 </body>
 
 </html>
