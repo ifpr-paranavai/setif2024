@@ -26,8 +26,7 @@ $normas = $controller->getNormasPublicacao('2024');
                         <i class="bi bi-calendar-check pl-1"></i> Datas Importantes
                     </h2>
 
-                    <h4 class="mt-4">Data limite para a submissão de trabalhos <span class="text-danger">(hard
-                            deadline)</span>:</h4>
+                    <h4 class="mt-4">Data limite para a submissão de trabalhos:</h4>
                     <div class="alert alert-danger text-lowercase" role="alert">
                         <?= Funcoes::getDataPorExtenso($normas->getDataLimite()) ?>
                     </div>
@@ -71,8 +70,9 @@ $normas = $controller->getNormasPublicacao('2024');
 
                         </li>
                     </ol>
-                    <p class="fs-5">Sistema de submissão: <a href="https://tecnoif.com.br/setif/openconf/openconf.php"
-                            target="_blank" class="rounded-pill btn btn-outline-success" role="button">Clique
+                    <p class="fs-5">Sistema de submissão: <a
+                            href="https://tecnoif.com.br/sistemas/openconf/openconf.php" target="_blank"
+                            class="rounded-pill btn btn-outline-success" role="button">Clique
                             aqui</a></p>
 
                     <h2 class="py-2 border-top">
