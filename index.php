@@ -1,9 +1,9 @@
 <?php
-    require_once $_SERVER['DOCUMENT_ROOT'] . '/setif/init.php';
-    include_once LIB_CONTROLLER . DS . 'IndexController.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/setif/init.php';
+include_once LIB_CONTROLLER . DS . 'IndexController.class.php';
 
-    $controller = new IndexController();
-    $dados = $controller->getDadosPaginaInstitucional(2023);
+$controller = new IndexController();
+$dados = $controller->getDadosPaginaInstitucional(2024);
 ?>
 
 <!DOCTYPE html>
@@ -11,12 +11,12 @@
 
 <head>
     <title>Apresentação</title>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'metadados.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'metadados.php' ?>
 </head>
 
 <body>
     <?php
-    include_once LIB_INCLUDES_2023 . DS . 'navbar.php';
+    include_once LIB_INCLUDES_2024 . DS . 'navbar.php';
     ?>
     <main class="principal">
         <section class="parallax-sobre h-100">
@@ -63,8 +63,8 @@
             </div>
         </section>
     </main>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'rodape.php' ?>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'scripts.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'rodape.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'scripts.php' ?>
 </body>
 
 </html>
