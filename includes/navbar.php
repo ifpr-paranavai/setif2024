@@ -5,7 +5,7 @@ $paginas = array(
     array("../anais/", "Anais do Evento"),
     array("corpoEditorial.php", "Corpo Editorial"),
     array("../fotos/", "Fotos"),
-    array("../2022/", "SETIF 2022"),
+    array("../2023/", "Edição Anterior"),
 );
 $url = explode("/", $_SERVER['REQUEST_URI']);
 $paginaAtual = end($url);
