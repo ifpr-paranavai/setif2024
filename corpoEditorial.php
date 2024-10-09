@@ -1,14 +1,14 @@
 <?php
-    require_once $_SERVER['DOCUMENT_ROOT'] . '/setif/init.php';
-    include_once LIB_CONTROLLER . DS . 'CorpoEditorialController.class.php';
-    $controller = new CorpoEditorialController();
-    $membros = $controller->getCorpoEditorialPorAno(2023);
-    foreach ($membros as $membro) {
-        if($membro->getFuncao() == CorpoEditorial::FUNCAO_PRESIDENTE){
-            $presidente = $membro->getNome();
-            break;
-        }
+require_once $_SERVER['DOCUMENT_ROOT'] . '/setif/init.php';
+include_once LIB_CONTROLLER . DS . 'CorpoEditorialController.class.php';
+$controller = new CorpoEditorialController();
+$membros = $controller->getCorpoEditorialPorAno(2024);
+foreach ($membros as $membro) {
+    if ($membro->getFuncao() == CorpoEditorial::FUNCAO_PRESIDENTE) {
+        $presidente = $membro->getNome();
+        break;
     }
+}
 ?>
 
 
@@ -39,13 +39,13 @@
                     Comitê Organizador da SETIF
                 </h2>
                 <?php
-                    foreach ($membros as $membro):
-                        if($membro->getFuncao() == CorpoEditorial::FUNCAO_SERVIDOR):
-                ?>
+                foreach ($membros as $membro):
+                    if ($membro->getFuncao() == CorpoEditorial::FUNCAO_SERVIDOR):
+                        ?>
                 <p class="py-1 fs-4"><?= $membro->getNome(); ?></p>
                 <?php
-                        endif;
-                    endforeach;
+                    endif;
+                endforeach;
                 ?>
             </div>
         </div>
@@ -56,13 +56,13 @@
                     Membros Discientes
                 </h2>
                 <?php
-                    foreach ($membros as $membro):
-                        if($membro->getFuncao() == CorpoEditorial::FUNCAO_DISCENTE):
-                ?>
+                foreach ($membros as $membro):
+                    if ($membro->getFuncao() == CorpoEditorial::FUNCAO_DISCENTE):
+                        ?>
                 <p class="py-1 fs-4"><?= $membro->getNome(); ?></p>
                 <?php
-                        endif;
-                    endforeach;
+                    endif;
+                endforeach;
                 ?>
             </div>
         </div>
