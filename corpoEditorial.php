@@ -18,11 +18,11 @@ foreach ($membros as $membro) {
 
 <head>
     <title>Corpo Editorial</title>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'metadados.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'metadados.php' ?>
 </head>
 
 <body>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'navbar.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'navbar.php' ?>
 
     <main class="container-fluid background-roxo text-center text-white principal">
         <div class="row border-bottom">
@@ -67,8 +67,8 @@ foreach ($membros as $membro) {
             </div>
         </div>
     </main>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'rodape.php' ?>
-    <?php include_once LIB_INCLUDES_2023 . DS . 'scripts.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'rodape.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'scripts.php' ?>
 </body>
 
 </html>
