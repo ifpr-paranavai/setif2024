@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/setif/init.php';
 include_once LIB_CONTROLLER . DS . 'IndexController.class.php';
 
 $controller = new IndexController();
-$dados = $controller->getDadosPaginaInstitucional(2023);
+$dados = $controller->getDadosPaginaInstitucional(2024);
 ?>
 
 <footer class="container-fluid bg-success text-white text-center rodape">
