@@ -48,19 +48,19 @@ $dados = $controller->getDadosPaginaInstitucional(2024);
                 </div>
             </div>
         </section>
-        <section class="parallax-localizacao h-100">
-            <div class="bg-white bg-opacity-50 p-2 text-center">
-                <div class="d-flex flex-row justify-content-center my-5">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h1 class="text-black fw-lighter fs-4 text-center">
-                                LOCALIZAÇÃO <i class="bi bi-geo-alt"></i>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-                <?= $dados->getLocalizacao() ?>
+
+        
+        
+        <section class="count-date mb-5">
+        <div class="contagem-regressiva">
+            <h2>Início do Evento</h2>
+            <div id="contador">
+                00 : 00 : 00 : 00
             </div>
+        </div>
+    </section>
+        <section class="h-100">
+                <?= $dados->getLocalizacao() ?>
         </section>
     </main>
     <?php include_once LIB_INCLUDES_2024 . DS . 'rodape-novo.php' ?>
