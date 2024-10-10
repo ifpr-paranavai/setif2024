@@ -63,7 +63,7 @@ $dados = $controller->getDadosPaginaInstitucional(2024);
             </div>
         </section>
     </main>
-    <?php include_once LIB_INCLUDES_2024 . DS . 'rodape.php' ?>
+    <?php include_once LIB_INCLUDES_2024 . DS . 'rodape-novo.php' ?>
     <?php include_once LIB_INCLUDES_2024 . DS . 'scripts.php' ?>
 </body>
 
