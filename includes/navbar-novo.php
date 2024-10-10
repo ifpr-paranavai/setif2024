@@ -1,7 +1,7 @@
 <?php
 $paginas = array(
     array("index.php", "Início"),
-    array("projetos.php", "Mostra de Trabalhos"),
+    array("mostraTrabalhos.php", "Mostra de Trabalhos"),
     array("normasPublicacao.php", "Submissão"),
     array("../anais/", "Anais do Evento"),
     array("corpoEditorial.php", "Corpo Editorial"),
