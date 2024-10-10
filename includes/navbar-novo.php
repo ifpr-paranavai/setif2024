@@ -11,7 +11,7 @@ $url = explode("/", $_SERVER['REQUEST_URI']);
 $paginaAtual = end($url);
 ?>
 
-<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+<nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
             <img src="imagens/logo_if.png" alt="Logo IFPR" class="img-fluid" style="height: 50px;">
