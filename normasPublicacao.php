@@ -103,11 +103,12 @@ $normas = $controller->getNormasPublicacao('2024');
                                 href="https://www.overleaf.com/latex/templates/sbc-conferences-template/blbxwjwzdngr"
                                 target="_blank" class="rounded-pill btn btn-outline-success" role="button">Ver
                                 template no Overleaf</a></li>
-                        <li class="text-danger">Não incluir abstract e o resumo no modelo latex</li>
+                        <li class="text-danger">Não incluir as seções abstract e resumo no modelo latex ao submeter Resumos</li>
                         <li class="mt-2">Modelo SBC-Artigo formato .doc: <a
                                 href="https://drive.google.com/file/d/1H_29Hg5N534qOTwKOwnVMRWEDHZgIFMv/view"
                                 class="rounded-pill btn btn-outline-success" role=" button">Baixar template
                                 .doc</a>
+								<li class="text-danger">Não incluir as seções abstract e resumo no modelo .doc ao submeter Resumos/li>
                         </li>
                     </ul>
                 </div>
