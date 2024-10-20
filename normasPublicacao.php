@@ -107,9 +107,8 @@ $normas = $controller->getNormasPublicacao('2024');
                         <li class="mt-2">Modelo SBC-Artigo formato .doc: <a
                                 href="https://drive.google.com/file/d/1H_29Hg5N534qOTwKOwnVMRWEDHZgIFMv/view"
                                 class="rounded-pill btn btn-outline-success" role=" button">Baixar template
-                                .doc</a>
-								<li class="text-danger">Não incluir as seções abstract e resumo no modelo .doc ao submeter Resumos/li>
-                        </li>
+                                .doc</a></li>
+						<li class="text-danger">Não incluir as seções abstract e resumo no modelo .doc ao submeter Resumos</li>
                     </ul>
                 </div>
             </div>
