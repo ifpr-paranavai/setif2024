@@ -27,7 +27,7 @@ $dados = $controller->getDadosPaginaInstitucional(2024);
     <div class="d-flex flex-column align-items-center">
         <img src="imagens/Logo_setif.png" alt="Logo SETIF" class="logo_setif">
         <div class="botoes d-flex flex-column flex-md-row justify-content-center mt-3">
-            <button class="inscricao  me-md-3 mb-2 mb-md-0" onclick="window.location.href='#'">Inscreva-se</button>
+            <button class="inscricao  me-md-3 mb-2 mb-md-0" onclick="window.location.href='https://www.even3.com.br/setif-2024/'">Inscreva-se</button>
             <button class="saiba-mais" onclick="window.location.href='#'">Saiba mais</button>
         </div>
     </div>
