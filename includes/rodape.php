@@ -6,21 +6,39 @@ $controller = new IndexController();
 $dados = $controller->getDadosPaginaInstitucional(2024);
 ?>
 
-<footer class="container-fluid bg-success text-white text-center rodape">
-    <div class="row">
-        <div class="col-12 fs-3">
-            <i class="bi bi-person-fill py-1 "></i>Contatos
-        </div>
-    </div>
-    <div class="row border-bottom py-1 fs-6">
+<footer class="bg-body-secondary pt-5 pb-2">
+    <div class="footer-container">
+    <div class="row py-1 fs-6 footer-section">
         <div class="col-12 col-sm-6">
+        <h3>Sobre Nós</h3>
+            <p class="py-2">Os Institutos Federais de Educação, Ciência e
+                Tecnologia (IFs) são instituições públicas federais
+                que oferecem educação profissional e tecnológica em
+                todos os níveis e modalidades.</p>
             <i class="bi bi-envelope-at-fill"></i>
-            <?= $dados->getEmail() ?>
-        </div>
-        <div class="col-12 col-sm-6">
+            <?= $dados->getEmail() ?> </br>
             <i class="bi bi-telephone-fill"></i>
             <?= $dados->getTelefone() ?>
         </div>
+        <div class="col-12 col-sm-6">
+        <h3>Links Úteis</h3>
+                <ul>
+                    <a href="index.php">
+                        <li>Início</li>
+                    </a>
+                    <a href="mostraTrabalhos.php">
+                        <li>Mostra de trabalhos</li>
+                    </a>
+                    <a href="normasPublicacao.php">
+                        <li>Submeter</li>
+                    </a>
+                    <a href="https://www.even3.com.br/setif-2024/">
+                        <li>Inscreva-se</li>
+                    </a>
+                </ul>
+        </div>
     </div>
-    <p class="small py-1 m-0">© SETIF 2023 - Desenvolvido por Giovanna Bernadelli e Maria Eduarda F. Bruning </p>
+    </div> 
+    <p class="small py-1 m-0 text-center">© SETIF 2024 - Desenvolvido por Felipe Soares e Luiz Gustavo </p>
+    
 </footer>

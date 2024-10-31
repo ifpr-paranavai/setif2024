@@ -11,8 +11,6 @@ foreach ($membros as $membro) {
 }
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -24,8 +22,8 @@ foreach ($membros as $membro) {
 <body>
     <?php include_once LIB_INCLUDES_2024 . DS . 'navbar.php' ?>
 
-    <main class="container-fluid background-roxo text-center text-white principal">
-        <div class="row border-bottom">
+    <main class="container-fluid text-center mt-5 pt-4">
+        <div class="row border-bottom mt-5">
             <div class="col-12">
                 <h2 class="py-3">
                     Presidente
