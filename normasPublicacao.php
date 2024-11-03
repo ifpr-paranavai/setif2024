@@ -33,9 +33,18 @@ $normas = $controller->getNormasPublicacao('2024');
                 <h2><i class="bi bi-calendar-check"></i> Datas Importantes</h2>
 
                 <div class="mt-4">
-                    <h4>Data limite para a submissão de trabalhos:</h4>
-                    <div class="alert alert-danger text-lowercase">
+                    <h4>Data limite para a cadastro de trabalhos:</h4>
+                    <div class="alert alert-secondary text-lowercase text-decoration-line-through">
                         <?= Funcoes::getDataPorExtenso($normas->getDataLimite()) ?>
+                    </div>
+                    <div class="alert alert-danger text-lowercase">
+                        14 de outubro de 2024
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h4>Data limite para a <em>upload</em> dos arquivos:</h4>
+                    <div class="alert alert-danger text-lowercase">
+                        17 de outubro de 2024
                     </div>
                 </div>
 
