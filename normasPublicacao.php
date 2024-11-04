@@ -38,13 +38,13 @@ $normas = $controller->getNormasPublicacao('2024');
                         <?= Funcoes::getDataPorExtenso($normas->getDataLimite()) ?>
                     </div>
                     <div class="alert alert-danger text-lowercase">
-                        14 de outubro de 2024
+                        14 de novembro de 2024
                     </div>
                 </div>
                 <div class="mt-4">
                     <h4>Data limite para a <em>upload</em> dos arquivos:</h4>
                     <div class="alert alert-danger text-lowercase">
-                        17 de outubro de 2024
+                        17 de novembro de 2024
                     </div>
                 </div>
 
