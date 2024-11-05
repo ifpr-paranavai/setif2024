@@ -1,6 +1,6 @@
 .logo_setif {
   width: 100%;
-  max-width: 550px;
+  max-width: 350px;
 }
 
 .botoes button {
@@ -185,134 +185,67 @@ footer {
 .programacao-content {
   margin-top: 20px;
   font-size: 1rem;
-  color: #333;
+  color: #ffffff;
 }
 
 /* Seção principal */
-.normas-intro {
-  background-color: #f8f9fa;
-  padding: 40px 0;
-}
+
 
 .normas-intro h2 {
-  font-size: 2.5rem;
-  color: #333;
+  font-size: 2.8rem;
+  color: #000000;
+  font-weight: bold; /* Aumentar a ênfase */
 }
 
 .normas-intro p {
-  color: #555;
+  color: #000000;
   font-size: 1.2rem;
+  max-width: 700px; /* Limitar a largura do texto */
+  margin: 0 auto; /* Centralizar texto */
 }
 
 /* Datas Importantes */
 .normas-datas-bg {
-  background-color: #71c837;
-  color: #333;
+  background-color: #62a632; /* Mudar para um fundo escuro */
+  color: #ffffff; /* Alterar texto para branco para maior contraste */
   border-radius: 10px;
-  padding: 20px;
-}
-
-.normas-datas-bg h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 20px;
+  padding: 30px; /* Aumentar o espaçamento */
 }
 
 .normas-datas-bg .alert {
-  background-color: #f7e4e9;
-  color: #333;
-  border: none;
-  font-size: 1rem;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
+  background-color: #ffffff; /* Manter a cor de fundo das alerts */
+  color: #dc3545; /* Cor de texto de alertas */
+  font-size: 1.1rem; /* Aumentar a fonte de alertas */
 }
 
-.normas-datas-bg h4 {
-  color: #555;
-  font-weight: bold;
+/* Melhoria dos Botões */
+.btn-outline-success {
+  border-color: #62a632;
+  color: #62a632; /* Cor do texto */
 }
 
-.normas-datas-bg p {
-  color: #333;
-}
-
-/* Submissão */
-.normas-submissao {
-  color: #444;
-  padding: 20px;
-  background-color: #f8f9fa;
-  border-radius: 10px;
-}
-
-.normas-submissao h2 {
-  color: #333;
-  font-size: 1.8rem;
-  margin-top: 10px;
-}
-
-.normas-submissao p,
-.normas-submissao ol,
-.normas-submissao ul {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.normas-submissao a.btn-outline-success {
-  border-color: #28a745;
-  color: #28a745;
-  font-size: 0.9rem;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.normas-submissao a.btn-outline-success:hover {
-  background-color: #28a745;
-  color: #fff;
-}
-
-/* Apresentação */
-.normas-apresentacao {
-  color: #333;
-  padding: 30px 0;
-  background-color: #f8f9fa;
-}
-
-.normas-apresentacao h2 {
-  font-size: 2rem;
-  color: #333;
-}
-
-.normas-apresentacao p {
-  font-size: 1.2rem;
-  color: #555;
+.btn-outline-success:hover {
+  background-color: #62a632;
+  color: #fff; /* Mudança de cor no hover */
 }
 
 /* Tópicos de Interesse */
-.normas-topicos {
-  background-color: #343a40;
-  padding: 40px 0;
-}
-
-.normas-topicos h2 {
-  font-size: 2rem;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
 .topico-card {
-  border-radius: 8px;
-  overflow: hidden;
   position: relative;
-  transition: transform 0.3s ease;
+  overflow: hidden; /* Para esconder a imagem se sair do contorno */
 }
 
-.topico-card:hover {
-  transform: scale(1.05);
+.topico-card img {
+  transition: transform 0.5s ease;
 }
+
+.topico-card:hover img {
+  transform: scale(1.5); /* Efeito de zoom ao passar o mouse */
+}
+
 
 .topico-card .card-img {
-  filter: brightness(0.5);
+  filter: brightness(0.6);
 }
 
 .topico-card .card-img-overlay {
@@ -326,13 +259,13 @@ footer {
 /* Botões */
 .btn-outline-success {
   font-size: 1rem;
-  color: #28a745;
-  border: 2px solid #28a745;
+  color: #62a632;
+  border: 2px solid #62a632;
   border-radius: 5px;
   padding: 8px 12px;
 }
 
 .btn-outline-success:hover {
-  background-color: #28a745;
+  background-color: #62a632;
   color: #ffffff;
 }
